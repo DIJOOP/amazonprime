@@ -1,0 +1,228 @@
+*{
+    padding: 0pt;
+    margin: 0pt;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    
+    width: 100%;
+    height: 75px;
+    background-color:#0f171e;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 110px;
+    height: 20px;
+    
+}
+#logo{
+    width: 115px;
+    height: 38px;
+    padding-top: 20px;
+    padding-left: 52px;
+}
+.language{
+    display: flex;
+    width: 300px;
+}
+#language{
+    width: 45px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 8px;
+    color: rgba(242,244,246,.9);
+    background-color: transparent;
+    border: none;
+}
+#globe{
+    width: 20px;
+    height: 20px;
+    padding-left: 88px;
+    padding-top: 27px;
+    color: rgba(242,244,246,.9);
+}
+#sign{
+    padding-left: 22px;
+    padding-top: 26px;
+    color: rgba(242,244,246,.9);
+    font-size: 17px;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;;
+}
+#welcomepic{
+    position: absolute
+}
+#signinbtn{
+    border-radius: 4px;
+    position: relative;
+    margin-top: 262px;
+    margin-left: 70px;
+    width: 282px;
+    height: 58px;
+    background-color: #0f79af;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: revert
+}
+.text{
+    width: 50%;
+}
+.channels{
+    width: 100%;
+    display:flex ;
+    margin-top: 165px;
+    
+}
+.image {
+    width: 195px;
+    height: 138px;
+    padding:2px
+}
+.channelhover {
+    width: 50%;
+    margin: 0pt;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text h2{
+
+    padding-left: 73px;
+    padding-right: 33px;
+    padding-top: 20px;
+    font-size: 48px;
+    line-height: 3.8rem;
+    font-weight: 200;
+    font-family: Amazon Ember
+    
+}
+.text p{
+    font-size: 24px;
+    font-family:Amazon Ember ;
+    padding-top: 20px;
+    padding-left: 75px;
+}
+.image:hover{
+    box-shadow: 2px 2px 4px red;
+}
+.section1{
+    height: 480px;
+    background-image:url(files/section1.jpg)
+
+}
+.section1text{
+    position: relative;
+    padding-top: 75px;
+    padding-left: 100px;
+    color: lightcyan;
+    font-family: sans-serif;
+}
+.section1text h1{
+
+    font-size: 40px;
+    font-weight: 600;
+}
+.section1text p{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 100;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+
+.button{
+    background-color: #0f79af;
+    border-radius: 4px;
+    padding: 17px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color:lightcyan ;
+}
+.section2{
+    height: 500px;
+    background-size: cover;
+    background-image:url(section2.jpg)
+    
+}
+.section2text{
+    float: right;
+    position: relative;
+    padding-top: 75px;
+    padding-right: 100px;
+    color: lightcyan;
+    font-family: sans-serif;
+}
+.section2text p{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 100;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+.section4{
+    height: 500px;
+    background-size: cover;
+    background-image:url(files/section4.jpg)
+    
+}
+.section4text{
+    position: relative;
+    padding-top: 75px;
+    padding-left: 100px;
+    color: lightcyan;
+    font-family: sans-serif;
+}
+.section4text p{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 100;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+.section3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+.subhead{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    
+}
+.subpara{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+.footer{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0f171e;
+}
+#footlogo{
+ padding-top: 20px;
+ padding-bottom: 10px;
+}
+#foottext{
+    padding-bottom: 20px;
+    color: #0f79af;
+    
+    
+}
