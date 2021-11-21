@@ -61,6 +61,7 @@ a{
     position: absolute
 }
 #signinbtn{
+    cursor: pointer;
     border-radius: 4px;
     position: relative;
     margin-top: 262px;
